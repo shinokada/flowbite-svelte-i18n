@@ -46,6 +46,14 @@
 		await switchLanguage('ja')
 		console.log('... language switched to Japanese')
 	}
+  let promiseEng = switchLanguageToEnglish();
+  const handleEnglish = ()=>{
+    promiseEng = switchLanguageToEnglish();
+  }
+  let promiseJap = switchLanguageToJapanese();
+  const handleJapanese = ()=>{
+    promiseJap = switchLanguageToJapanese();
+  }
 </script>
 
 <header
@@ -121,16 +129,16 @@
         <Us size="18" id="countries"/>
       </div>
       <Dropdown triggeredBy="#countries">
-        <DropdownItem>
-          <div class="inline-flex items-center" on:click={switchLanguageToEnglish} on:keydown={switchLanguageToEnglish}>
+        <DropdownItem on:click={handleEnglish} on:keydown={handleEnglish}>
+          <div class="inline-flex items-center" >
             <Us size="18" />
-            English (US)
+            <span class='p-2'>English (US)</span>
           </div>
         </DropdownItem>
-        <DropdownItem>
-          <div class="inline-flex items-center" on:click={switchLanguageToJapanese} on:keydown={switchLanguageToJapanese}>
-            <Ja size="18"  />
-            日本語
+        <DropdownItem on:click={handleJapanese} on:keydown={handleJapanese}>
+          <div class="inline-flex items-center" >
+            <Ja size="18" />
+            <span class='p-2'>日本語</span>
           </div>
         </DropdownItem>
       </Dropdown>
