@@ -1,6 +1,6 @@
 <script lang="ts">
   import { page } from '$app/stores';
-  import { DarkMode, Navbar, NavBrand, NavHamburger, NavLi, NavUl, Dropdown, DropdownItem } from '$lib';
+  import { DarkMode, Navbar, NavBrand, NavHamburger, NavLi, NavUl } from '$lib';
   import Tooltip from '$lib/tooltips/Tooltip.svelte';
   import { setContext } from 'svelte';
   import { writable, type Writable } from 'svelte/store';
@@ -10,12 +10,11 @@
   import GitHub from './utils/icons/GitHub.svelte';
   import YouTube from './utils/icons/YouTube.svelte';
   import ToolbarLink from './utils/ToolbarLink.svelte';
-  import Us from './utils/Us.svelte';
-  import Ja from './utils/Ja.svelte';
+  import Lang from './utils/Lang.svelte';
   import type { LayoutData } from './$types';
   import NavSidebarHamburger from '$lib/navbar/NavSidebarHamburger.svelte';
   import AlgoliaSearch from './utils/AlgoliaSearch.svelte';
-  import { i, language, languages, switchLanguage } from '@inlang/sdk-js'
+
   
   export let data: LayoutData;
 
@@ -36,24 +35,7 @@
   const toggleDrawer = () => {
     drawerHiddenStore.update((state) => !state);
   };
-  async function switchLanguageToEnglish() {
-		console.log('switching language to English ...')
-		await switchLanguage('en')
-		console.log('... language switched to English')
-	}
-  async function switchLanguageToJapanese() {
-		console.log('switching language to Japanese ...')
-		await switchLanguage('ja')
-		console.log('... language switched to Japanese')
-	}
-  let promiseEng = switchLanguageToEnglish();
-  const handleEnglish = ()=>{
-    promiseEng = switchLanguageToEnglish();
-  }
-  let promiseJap = switchLanguageToJapanese();
-  const handleJapanese = ()=>{
-    promiseJap = switchLanguageToJapanese();
-  }
+  
 </script>
 
 <header
@@ -125,23 +107,7 @@
       </ToolbarLink>
       <DarkMode size="lg" class="inline-block dark:hover:text-white hover:text-gray-900 p-2" />
       <Tooltip class="dark:bg-gray-900" placement="bottom-end">Toggle dark mode</Tooltip>
-      <div class='p-2'>
-        <Us size="18" id="countries"/>
-      </div>
-      <Dropdown triggeredBy="#countries">
-        <DropdownItem on:click={handleEnglish} on:keydown={handleEnglish}>
-          <div class="inline-flex items-center" >
-            <Us size="18" />
-            <span class='p-2'>English (US)</span>
-          </div>
-        </DropdownItem>
-        <DropdownItem on:click={handleJapanese} on:keydown={handleJapanese}>
-          <div class="inline-flex items-center" >
-            <Ja size="18" />
-            <span class='p-2'>日本語</span>
-          </div>
-        </DropdownItem>
-      </Dropdown>
+      <Lang />
     </div>
    
     <a href="https://www.npmjs.com/package/flowbite-svelte" class="hidden sm:block">

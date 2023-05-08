@@ -1,10 +1,10 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import path from 'path';
-import examples from 'mdsvexamples/vite';
+import { defineConfig } from 'vitest/config';
 import inlangPlugin from "@inlang/sdk-js/adapter-sveltekit";
+import examples from 'mdsvexamples/vite';
 
-/** @type {import('vite').UserConfig} */
-const config = {
+export default defineConfig({
 	plugins: [
 		inlangPlugin(),
 		sveltekit(),
@@ -22,6 +22,4 @@ const config = {
 			'flowbite-svelte': path.resolve(process.cwd(), './src/lib/index.ts')
 		}
 	}
-};
-
-export default config;
+});

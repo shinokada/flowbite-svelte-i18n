@@ -1,4 +1,5 @@
 {
 	"flowbite-svelte": "Flowbite Svelte",
-	"home-hero": "Speed up your web development with "
+	"home-hero": "Speed up your web development with ",
+	"home-hero-desc": "Flowbite Svelte is an official Flowbite component library for Svelte. All interactivities are handled by Svelte."
 }

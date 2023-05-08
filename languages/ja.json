@@ -1,4 +1,5 @@
 {
 	"flowbite-svelte": "Flowbite Svelte",
-	"home-hero":"早く"
+	"home-hero":"あなたのウェブ開発を加速させる",
+	"home-hero-desc": "Flowbite Svelteは、Svelte用の公式Flowbiteコンポーネントライブラリです。すべてのインタラクティビティはSvelteによって処理されます。"
 }

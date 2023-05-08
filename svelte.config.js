@@ -17,7 +17,7 @@ const config = {
   ],
   vitePlugin: {
       inspector: {
-				holdMode: true
+        holdMode: true
 			}
   },
   kit: {
