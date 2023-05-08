@@ -2,6 +2,7 @@
   import Button from '$lib/buttons/Button.svelte';
   import CopyCliboardInput from '../utils/CopyCliboardInput.svelte';
   import ArrowRight from '../utils/icons/ArrowRight.svelte';
+  import { i } from '@inlang/sdk-js'
 </script>
 
 <section class="overflow-hidden mx-auto max-w-8xl flex flex-col pt-6 sm:pt-8 lg:pt-16 pb-6 sm:pb-8 lg:pb-24 px-4 lg:px-20">
@@ -10,7 +11,7 @@
       <div class="flex flex-col justify-start gap-10">
         <div class="flex flex-col gap-4 lg:gap-6 text-left">
           <h1 class="text-4xl lg:text-6xl leading-none font-extrabold text-gray-900 dark:text-white max-w-xl">
-            <span class="block1 xl:inline">Speed up your web development with</span>
+            <span class="block1 xl:inline">{i('home-hero')}</span>
             <span class="block1 text-primary-700 dark:text-primary-700 xl:inline">Flowbite Svelte</span>
           </h1>
           <p class="text-lg lg:text-xl leading-normal text-gray-500 dark:text-gray-400 max-w-xl">

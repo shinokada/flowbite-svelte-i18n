@@ -1,6 +1,6 @@
 <script lang="ts">
   import { page } from '$app/stores';
-  import { DarkMode, Navbar, NavBrand, NavHamburger, NavLi, NavUl } from '$lib';
+  import { DarkMode, Navbar, NavBrand, NavHamburger, NavLi, NavUl, Dropdown, DropdownItem } from '$lib';
   import Tooltip from '$lib/tooltips/Tooltip.svelte';
   import { setContext } from 'svelte';
   import { writable, type Writable } from 'svelte/store';
@@ -10,10 +10,13 @@
   import GitHub from './utils/icons/GitHub.svelte';
   import YouTube from './utils/icons/YouTube.svelte';
   import ToolbarLink from './utils/ToolbarLink.svelte';
+  import Us from './utils/Us.svelte';
+  import Ja from './utils/Ja.svelte';
   import type { LayoutData } from './$types';
   import NavSidebarHamburger from '$lib/navbar/NavSidebarHamburger.svelte';
   import AlgoliaSearch from './utils/AlgoliaSearch.svelte';
-
+  import { i, language, languages, switchLanguage } from '@inlang/sdk-js'
+  
   export let data: LayoutData;
 
   let isHomePage: boolean;
@@ -33,6 +36,16 @@
   const toggleDrawer = () => {
     drawerHiddenStore.update((state) => !state);
   };
+  async function switchLanguageToEnglish() {
+		console.log('switching language to English ...')
+		await switchLanguage('en')
+		console.log('... language switched to English')
+	}
+  async function switchLanguageToJapanese() {
+		console.log('switching language to Japanese ...')
+		await switchLanguage('ja')
+		console.log('... language switched to Japanese')
+	}
 </script>
 
 <header
@@ -88,23 +101,41 @@
 
     <div class="flex items-center ml-auto">
       <ToolbarLink
-        class="hidden sm:inline-block dark:hover:text-white hover:text-gray-900"
+        class="hidden sm:inline-block dark:hover:text-white hover:text-gray-900 p-2"
         name="View on GitHub"
         href="https://github.com/themesberg/flowbite-svelte">
         <GitHub /></ToolbarLink>
       <ToolbarLink
-        class="hidden xl:inline-block dark:hover:text-white hover:text-gray-900"
+        class="hidden xl:inline-block dark:hover:text-white hover:text-gray-900 p-2"
         name="Join community on Discord"
         href="https://discord.gg/4eeurUVvTy"><Discord /></ToolbarLink>
       <ToolbarLink
-        class="hidden xl:inline-block dark:hover:text-white hover:text-gray-900"
+        class="hidden xl:inline-block dark:hover:text-white hover:text-gray-900 p-2"
         name="Subscribe to YouTube channel"
         href="https://www.youtube.com/channel/UC_Ms4V2kYDsh7F_CSsHyQ6A">
         <YouTube />
       </ToolbarLink>
-      <DarkMode size="lg" class="inline-block dark:hover:text-white hover:text-gray-900" />
+      <DarkMode size="lg" class="inline-block dark:hover:text-white hover:text-gray-900 p-2" />
       <Tooltip class="dark:bg-gray-900" placement="bottom-end">Toggle dark mode</Tooltip>
+      <div class='p-2'>
+        <Us size="18" id="countries"/>
+      </div>
+      <Dropdown triggeredBy="#countries">
+        <DropdownItem>
+          <div class="inline-flex items-center" on:click={switchLanguageToEnglish} on:keydown={switchLanguageToEnglish}>
+            <Us size="18" />
+            English (US)
+          </div>
+        </DropdownItem>
+        <DropdownItem>
+          <div class="inline-flex items-center" on:click={switchLanguageToJapanese} on:keydown={switchLanguageToJapanese}>
+            <Ja size="18"  />
+            日本語
+          </div>
+        </DropdownItem>
+      </Dropdown>
     </div>
+   
     <a href="https://www.npmjs.com/package/flowbite-svelte" class="hidden sm:block">
       <DocBadge
         large
@@ -113,7 +144,7 @@
       </DocBadge>
     </a>
 
-    <NavHamburger on:click={toggle} btnClass="ml-3 m-0 lg:hidden {isHomePage ? '' : 'hidden'}" />
+    <NavHamburger on:click={toggle} btnClass="ml-4 m-0 lg:hidden {isHomePage ? '' : 'hidden'}" />
   </Navbar>
 </header>
 

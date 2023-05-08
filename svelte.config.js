@@ -18,7 +18,7 @@ const config = {
   vitePlugin: {
       inspector: {
 				holdMode: true
-			},
+			}
   },
   kit: {
     adapter: adapter({ runtime: 'edge' })

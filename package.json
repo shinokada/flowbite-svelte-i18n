@@ -35,6 +35,7 @@
     "svelte": "^3.55.1"
   },
   "devDependencies": {
+    "@inlang/sdk-js": "^0.1.1",
     "@playwright/test": "^1.33.0",
     "@sveltejs/adapter-vercel": "^2.4.3",
     "@sveltejs/kit": "^1.16.2",

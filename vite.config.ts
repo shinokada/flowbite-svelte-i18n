@@ -1,10 +1,11 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import path from 'path';
 import examples from 'mdsvexamples/vite';
+import inlangPlugin from "@inlang/sdk-js/adapter-sveltekit"
 
 /** @type {import('vite').UserConfig} */
 const config = {
-	plugins: [sveltekit(), examples],
+	plugins: [inlangPlugin(), sveltekit(), examples],
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
 	},
