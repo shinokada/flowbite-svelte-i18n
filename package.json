@@ -37,6 +37,7 @@
   "devDependencies": {
     "@inlang/sdk-js": "^0.1.1",
     "@playwright/test": "^1.33.0",
+    "@sveltejs/adapter-auto": "^2.0.1",
     "@sveltejs/adapter-vercel": "^2.4.3",
     "@sveltejs/kit": "^1.16.2",
     "@sveltejs/package": "2.0.2",
