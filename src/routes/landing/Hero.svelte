@@ -15,7 +15,7 @@
             <span class="block1 text-primary-700 dark:text-primary-700 xl:inline">Flowbite Svelte</span>
           </h1>
           <p class="text-lg lg:text-xl leading-normal text-gray-500 dark:text-gray-400 max-w-xl">
-            {i('home-hero-desc')}
+            {i('home-hero-desc'), "Speed up your web development with" }
           </p>
           <div class="mt-4 md:mt-5 sm:flex justify-center sm:justify-start">
             <div class="flex flex-row mx-0 gap-4 sm:gap-6 items-center max-w-2xl">

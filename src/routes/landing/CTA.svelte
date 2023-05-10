@@ -11,6 +11,7 @@
   import H2 from './utils/H2.svelte';
   import Row from './utils/Row.svelte';
   import Section from './utils/Section.svelte';
+  import { i } from '@inlang/sdk-js'
 
   const features = [
     'Huge collection of UI components',
@@ -29,13 +30,10 @@
     <div class="flex flex-col items-start gap-3 sm:gap-4 self-stretch">
       <H2>Svelte UI components</H2>
       <p class="text-lg text-gray-500 dark:text-gray-400">
-        <A href="/docs/pages/introduction">Flowbite Svelte</A> is a free and open-source UI component library
-        built using Svelte based on Flowbite and Tailwind CSS.
+        <A href="/docs/pages/introduction">Flowbite Svelte</A> {i('cta-1')}
       </p>
       <p class="text-lg text-gray-500 dark:text-gray-400">
-        By installing the package via NPM you will be able to build modern looking web applications fast by
-        leveraging Svelte, Tailwind CSS and Flowbite using ready-made UI components like dropdowns, navbars,
-        modals, and more.
+        {i('cta-2')}
       </p>
     </div>
 

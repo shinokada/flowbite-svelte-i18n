@@ -1,5 +1,7 @@
 {
-	"flowbite-svelte": "Flowbite Svelte",
-	"home-hero":"あなたのウェブ開発を加速させる",
-	"home-hero-desc": "Flowbite Svelteは、Svelte用の公式Flowbiteコンポーネントライブラリです。すべてのインタラクティビティはSvelteによって処理されます。"
+  "flowbite-svelte": "Flowbite Svelte",
+  "home-hero": "あなたのウェブ開発を加速させる",
+  "home-hero-desc": "Flowbite Svelteは、Svelte用の公式Flowbiteコンポーネントライブラリです。すべてのインタラクティビティはSvelteによって処理されます。",
+  "cta-1":"はFlowbiteとTailwind CSSをベースにしたSvelteで構築された、無料でオープンソースのUIコンポーネントライブラリです。",
+  "cta-2": "NPMを介してパッケージをインストールすることで、Svelte、Tailwind CSS、およびFlowbiteを活用して、ドロップダウン、ナビゲーションバー、モーダルなどのすぐに使えるUIコンポーネントを使用して、モダンな外観のWebアプリケーションを迅速に構築できます。"
 }
