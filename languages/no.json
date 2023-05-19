@@ -9,5 +9,6 @@
   "svelte-ui-components": "Svelte UI-komponenter",
   "huge-collection": "Stor samling av UI-komponenter",
   "open-source": "Åpen kildekode under MIT-lisensen",
-  "interactivity": "Interaktivitet håndtert av Svelte"
+  "interactivity": "Interaktivitet håndtert av Svelte",
+  "utility": "Verktøyklasser basert på Tailwind CSS"
 }
