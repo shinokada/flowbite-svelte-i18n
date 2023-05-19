@@ -1,5 +1,6 @@
 {
   "home-hero": "Velocizza il tuo sviluppo web con",
   "home-hero-desc": "Flowbite Svelte è una libreria di componenti Flowbite ufficiale per Svelte. Tutte le interattività sono gestite da Svelte.",
-  "cta-1": "è una libreria di componenti dell'interfaccia utente gratuita e open source creata utilizzando Svelte basata su Flowbite e Tailwind CSS."
+  "cta-1": "è una libreria di componenti dell'interfaccia utente gratuita e open source creata utilizzando Svelte basata su Flowbite e Tailwind CSS.",
+  "cta-2": "Installando il pacchetto tramite NPM sarai in grado di creare rapidamente applicazioni Web dall'aspetto moderno sfruttando Svelte, Tailwind CSS e Flowbite utilizzando componenti dell'interfaccia utente già pronti come barre di navigazione a discesa, modali e altro."
 }
