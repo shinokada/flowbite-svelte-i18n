@@ -11,5 +11,6 @@
   "huge-collection": "UI コンポーネントの膨大なコレクション",
   "open-source": "MITライセンスに基づくオープンソース",
   "interactivity": "Svelte によって処理されるインタラクティブ性",
-  "utility": "Tailwind CSS に基づくユーティリティ クラス"
+  "utility": "Tailwind CSS に基づくユーティリティ クラス",
+  "ecosystem": "Flowbite のエコシステムと設計に基づく"
 }
