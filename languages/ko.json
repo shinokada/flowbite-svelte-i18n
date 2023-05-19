@@ -9,5 +9,6 @@
   "svelte-ui-components": "Svelte UI 구성 요소",
   "huge-collection": "방대한 UI 구성 요소 컬렉션",
   "open-source": "MIT 라이선스에 따른 오픈 소스",
-  "interactivity": "Svelte가 처리하는 상호작용"
+  "interactivity": "Svelte가 처리하는 상호작용",
+  "utility": "Tailwind CSS 기반 유틸리티 클래스"
 }
