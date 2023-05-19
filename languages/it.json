@@ -12,5 +12,6 @@
   "interactivity": "Interattività gestita da Svelte",
   "utility": "Classi di utilità basate su Tailwind CSS",
   "ecosystem": "Basato sull'ecosistema e sul design Flowbite",
-  "start-building": "Inizia a costruire"
+  "start-building": "Inizia a costruire",
+  "view-on-github": "Visualizza su GitHub"
 }
