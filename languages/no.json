@@ -11,5 +11,6 @@
   "open-source": "Åpen kildekode under MIT-lisensen",
   "interactivity": "Interaktivitet håndtert av Svelte",
   "utility": "Verktøyklasser basert på Tailwind CSS",
-  "ecosystem": "Basert på Flowbite-økosystemet og design"
+  "ecosystem": "Basert på Flowbite-økosystemet og design",
+  "start-building": "Begynn å bygge"
 }
