@@ -1,4 +1,5 @@
 {
   "home-hero": "Få fart på nettutviklingen din med",
-  "home-hero-desc": "Flowbite Svelte er et offisielt Flowbite-komponentbibliotek for Svelte. All interaktivitet håndteres av Svelte."
+  "home-hero-desc": "Flowbite Svelte er et offisielt Flowbite-komponentbibliotek for Svelte. All interaktivitet håndteres av Svelte.",
+  "cta-1": "er et gratis og åpen kildekode UI-komponentbibliotek bygget med Svelte basert på Flowbite og Tailwind CSS."
 }
