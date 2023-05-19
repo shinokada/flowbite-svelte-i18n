@@ -13,11 +13,14 @@ dependencies:
   flowbite:
     specifier: ^1.6.5
     version: 1.6.5
+  uninstall:
+    specifier: ^0.0.0
+    version: 0.0.0
 
 devDependencies:
   '@inlang/sdk-js':
-    specifier: ^0.2.1
-    version: 0.2.1(@inlang/core@0.7.14)
+    specifier: ^0.5.1
+    version: 0.5.1(@sveltejs/kit@1.16.2)(esbuild@0.17.18)(svelte@3.59.0)
   '@playwright/test':
     specifier: ^1.33.0
     version: 1.33.0
@@ -533,18 +536,18 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@inlang-git/fs@0.0.2:
-    resolution: {integrity: sha512-khK4NDac/S2cEVVXfSMMrFJHsDuZmCFU4a5uJuZA5ogZhzT4s9i6D96x5Wk2qvL4cliTadalLttKNdS2XlTekQ==}
+  /@inlang-git/fs@0.0.3:
+    resolution: {integrity: sha512-sHHGV117PWQoe1w2HbrI9X1UMyiDiBZus4lHVcLyf6/K+tDV51CeNUs8SE8PrmeeDPhWWywXa3t28/R2Wk90dA==}
     dependencies:
       outmatch: 0.7.0
     dev: true
 
-  /@inlang/core@0.7.14(esbuild@0.17.18):
-    resolution: {integrity: sha512-pnPXGN/rfBLmoNO6mZZKLHj6ieZl8qNcDRXyA2so7n/BzlZe76pvEG7RAOkXhxwkAH9GNZ+ZjE7zdLCRaRkcbA==}
+  /@inlang/core@0.8.5(esbuild@0.17.18):
+    resolution: {integrity: sha512-f4tkeQizMHvQTD4tNzx6kajWN+3pvXNBmVVR0ipt4Q/K25tolHnHYxJfvwXwLr4BudQi3zXJ+XbHCqPj2GCTvA==}
     engines: {node: '>=16.15.0'}
     dependencies:
       '@esbuild-plugins/node-modules-polyfill': 0.2.2(esbuild@0.17.18)
-      '@inlang-git/fs': 0.0.2
+      '@inlang-git/fs': 0.0.3
       deepmerge-ts: 5.1.0
       ts-dedent: 2.2.0
       zod: 3.21.4
@@ -552,13 +555,18 @@ packages:
       - esbuild
     dev: true
 
-  /@inlang/sdk-js@0.2.1(@inlang/core@0.7.14):
-    resolution: {integrity: sha512-/akHqjeXhg2d/H9StQIyKMvwH7bJGlpQzxIk8adZeFEYG8UPBY/bs2YPXSZ1ojon8B1wfrmBktTZxN9nbIRj7w==}
+  /@inlang/sdk-js@0.5.1(@sveltejs/kit@1.16.2)(esbuild@0.17.18)(svelte@3.59.0):
+    resolution: {integrity: sha512-9GIrFuLXBGGSX7+4tNtN/drPSrX1D2aLJw+PeWttkdHEdoCKcTm0eTnnwHNVmM6mfCUrj4A4GWy4HdbfMy5yIg==}
     engines: {node: '>=18'}
     peerDependencies:
-      '@inlang/core': '*'
+      '@sveltejs/kit': ^1.0.0
+      svelte: ^3.0.0
     dependencies:
-      '@inlang/core': 0.7.14(esbuild@0.17.18)
+      '@inlang/core': 0.8.5(esbuild@0.17.18)
+      '@sveltejs/kit': 1.16.2(svelte@3.59.0)(vite@4.3.5)
+      svelte: 3.59.0
+    transitivePeerDependencies:
+      - esbuild
     dev: true
 
   /@jridgewell/gen-mapping@0.3.3:
@@ -3112,6 +3120,10 @@ packages:
     dependencies:
       busboy: 1.6.0
     dev: true
+
+  /uninstall@0.0.0:
+    resolution: {integrity: sha512-pjP/0+A4gsbDVa8XH/S2GZdT9NPJW8NFMy3GI7HnsWG+NAmFSSj3QidNosXBI9cPtxxNExEDdhKFO6sli8K3mA==}
+    dev: false
 
   /unist-util-is@5.2.1:
     resolution: {integrity: sha512-u9njyyfEh43npf1M+yGKDGVPbY/JWEemg5nH05ncKPfi+kBbKBJoTdsogMu33uhytuLlv9y0O7GH7fEdwLdLQw==}

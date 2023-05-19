@@ -35,7 +35,7 @@
     "svelte": "^3.55.1"
   },
   "devDependencies": {
-    "@inlang/sdk-js": "^0.2.1",
+    "@inlang/sdk-js": "^0.5.1",
     "@playwright/test": "^1.33.0",
     "@sveltejs/adapter-auto": "^2.0.1",
     "@sveltejs/adapter-vercel": "^2.4.3",
@@ -115,7 +115,8 @@
     "@docsearch/js": "^3.3.4",
     "@popperjs/core": "^2.11.7",
     "classnames": "^2.3.2",
-    "flowbite": "^1.6.5"
+    "flowbite": "^1.6.5",
+    "uninstall": "^0.0.0"
   },
   "engines": {
     "npm": ">=7.0.0",
