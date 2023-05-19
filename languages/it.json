@@ -8,5 +8,6 @@
   "view-all-components": "Visualizza tutti i componenti",
   "svelte-ui-components": "Svelte UI components",
   "huge-collection": "Enorme raccolta di componenti dell'interfaccia utente",
-  "open-source": "Open-source con licenza MIT"
+  "open-source": "Open-source con licenza MIT",
+  "interactivity": "Interattività gestita da Svelte"
 }
