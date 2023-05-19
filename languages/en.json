@@ -5,7 +5,7 @@
   "cta-1": "is a free and open-source UI component library built using Svelte based on Flowbite and Tailwind CSS.",
   "cta-2": "By installing the package via NPM you will be able to build modern looking web applications fast by leveraging Svelte, Tailwind CSS and Flowbite using ready-made UI components like dropdowns navbars, modals, and more.",
   "get-started": "Get started",
-  "component-desc": "Explore the whole collection of <span class='font-medium text-gray-900 dark:text-white'>over {components.length} open-source</span> UI components and interactive elements built with Svelte and Flowbite",
+  "component-desc": "Explore the whole collection of <span class='font-medium text-gray-900 dark:text-white'>over 58 open-source</span> UI components and interactive elements built with Svelte and Flowbite",
   "view-all-components": "View all components",
   "svelte-ui-components": "Svelte UI components",
   "huge-collection": "Huge collection of UI components",
