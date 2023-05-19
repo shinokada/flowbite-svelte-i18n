@@ -7,5 +7,6 @@
   "component-desc": "Entdecken Sie die gesamte Sammlung von <span class='font-medium text-gray-900 dark:text-white'>über {components.length} Open-Source</span> UI-Komponenten und interaktiven Elementen, die mit Svelte und Flowbite erstellt wurden",
   "view-all-components": "Alle Komponenten anzeigen",
   "svelte-ui-components": "Svelte UI-Komponenten",
-  "huge-collection": "Riesige Sammlung von UI-Komponenten"
+  "huge-collection": "Riesige Sammlung von UI-Komponenten",
+  "open-source": "Open Source unter der MIT-Lizenz"
 }
