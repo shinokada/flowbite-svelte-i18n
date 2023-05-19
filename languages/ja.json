@@ -6,5 +6,6 @@
   "cta-2": "NPMを介してパッケージをインストールすることで、Svelte、Tailwind CSS、およびFlowbiteを活用して、ドロップダウン、ナビゲーションバー、モーダルなどのすぐに使えるUIコンポーネントを使用して、モダンな外観のWebアプリケーションを迅速に構築できます。",
   "get-started": "始めましょう",
   "component-desc": "Svelte と Flowbite で構築された <span class='font-medium text-gray-900 dark:text-white'>{components.length} 個以上</span>のオープンソース UI コンポーネントとインタラクティブ要素のコレクション全体を探索してください",
-  "view-all-components": "すべてのコンポーネントを表示"
+  "view-all-components": "すべてのコンポーネントを表示",
+  "svelte-ui-components": "Svelte  UI コンポーネント"
 }
