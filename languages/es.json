@@ -11,5 +11,6 @@
   "open-source": "Código abierto bajo la licencia MIT",
   "interactivity": "Interactividad manejada por Svelte",
   "utility": "Clases de utilidad basadas en Tailwind CSS",
-  "ecosystem": "Basado en el ecosistema y el diseño de Flowbite"
+  "ecosystem": "Basado en el ecosistema y el diseño de Flowbite",
+  "start-building": "Empezar a construir"
 }
