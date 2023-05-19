@@ -5,5 +5,6 @@
   "cta-2": "Ved å installere pakken via NPM vil du kunne bygge moderne webapplikasjoner raskt ved å utnytte Svelte, Tailwind CSS og Flowbite ved å bruke ferdige brukergrensesnittkomponenter som rullegardinmenyene, modaler og mer.",
   "get-started": "Kom i gang",
   "component-desc": "Utforsk hele samlingen av <span class='font-medium text-gray-900 dark:text-white'>over {components.length} åpen kildekode</span> UI-komponenter og interaktive elementer bygget med Svelte og Flowbite",
-  "view-all-components": "Se alle komponenter"
+  "view-all-components": "Se alle komponenter",
+  "svelte-ui-components": "Svelte UI-komponenter"
 }
