@@ -13,5 +13,6 @@
   "utility": "Clases de utilidad basadas en Tailwind CSS",
   "ecosystem": "Basado en el ecosistema y el diseño de Flowbite",
   "start-building": "Empezar a construir",
-  "view-on-github": "Ver en GitHub"
+  "view-on-github": "Ver en GitHub",
+  "dark-mode-1": "Flowbite Svelte es compatible con el <A href='/docs/components/darkmode'>modo oscuro</A> y puede integrarse fácilmente en su proyecto siguiendo la documentación oficial basada en Svelte."
 }
