@@ -14,11 +14,11 @@
   import { i } from '@inlang/sdk-js'
 
   const features = [
-    `i('huge-collection')`,
-    `i('open-source')`,
-    `i('interactivity')`,
-    `i('utility')`,
-    `i('ecosystem')`
+    'Huge collection of UI components',
+    'Open-source under the MIT License',
+    'Interactivity handled by Svelte',
+    'Utility classes based on Tailwind CSS',
+    'Based on the Flowbite ecosystem and design'
   ];
 </script>
 
@@ -30,10 +30,10 @@
     <div class="flex flex-col items-start gap-3 sm:gap-4 self-stretch">
       <H2>Svelte UI components</H2>
       <p class="text-lg text-gray-500 dark:text-gray-400">
-        <A href="/docs/pages/introduction">Flowbite Svelte</A> {i('cta-1')}
+        <A href="/docs/pages/introduction">Flowbite Svelte</A> {@html i('cta-1')}
       </p>
       <p class="text-lg text-gray-500 dark:text-gray-400">
-        {i('cta-2')}
+        {@html i('cta-2')}
       </p>
     </div>
 
@@ -53,11 +53,11 @@
 
       <div class="flex flex-row gap-4">
         <Button href="/docs/pages/introduction" color="primary" class="gap-4"
-          >Start building <ArrowRight /></Button>
+          >{@html i('start-building')} <ArrowRight /></Button>
         <Button
           href="https://github.com/themesberg/flowbite-svelte"
           color="light"
-          class="w-auto dark:!text-gray-400">View on GitHub</Button>
+          class="w-auto dark:!text-gray-400">{@html i('view-on-github')}</Button>
       </div>
     </div>
   </Row>
@@ -78,12 +78,10 @@
     <div class="flex flex-col items-start py-4 gap-4 self-stretch">
       <H2>Dark mode integration</H2>
       <p class="text-lg text-gray-500 dark:text-gray-400 mb-2">
-        Flowbite Svelte supports <A href="/docs/components/darkmode">dark mode</A> and can be easily integrated
-        into your project by following the official documentation based on Svelte.
+       {@html i('dark-mode-1')}
       </p>
       <p class="text-lg text-gray-500 dark:text-gray-400">
-        Enabling dark mode will allow users to either select the preferred method (light or dark) or
-        automatically switch based on the operating system settings.
+        {@html i('dark-mode-2')}
       </p>
     </div>
     <List

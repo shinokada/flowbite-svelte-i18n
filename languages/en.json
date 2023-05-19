@@ -14,5 +14,7 @@
   "utility": "Utility classes based on Tailwind CSS",
   "ecosystem": "Based on the Flowbite ecosystem and design",
   "start-building": "Start building",
-  "view-on-github": "View on GitHub"
+  "view-on-github": "View on GitHub",
+  "dark-mode-1":"Flowbite Svelte supports <A href='/docs/components/darkmode'>dark mode</A> and can be easily integrated into your project by following the official documentation based on Svelte.",
+  "dark-mode-2":"Enabling dark mode will allow users to either select the preferred method (light or dark) or automatically switch based on the operating system settings."
 }

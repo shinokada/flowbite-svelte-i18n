@@ -21,10 +21,10 @@
 <Section class="flex flex-col gap-8 sm:gap-12 lg:pt-24">
   <div class="flex flex-col items-center gap-4 sm:gap-4">
     <h2 class="tracking-tight font-extrabold text-3xl lg:text-4xl text-gray-900 dark:text-white">
-      {i('svelte-ui-components')}
+      {@html i('svelte-ui-components')}
     </h2>
     <p class="text-lg font-normal text-gray-500 dark:text-gray-400 max-w-3xl mx-auto text-center">
-      {i('component-desc')}
+      {@html i('component-desc')}
     </p>
   </div>
 
