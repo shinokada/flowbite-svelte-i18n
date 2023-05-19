@@ -12,5 +12,6 @@
   "interactivity": "Interaktivitet håndtert av Svelte",
   "utility": "Verktøyklasser basert på Tailwind CSS",
   "ecosystem": "Basert på Flowbite-økosystemet og design",
-  "start-building": "Begynn å bygge"
+  "start-building": "Begynn å bygge",
+  "view-on-github": "Se på GitHub"
 }
