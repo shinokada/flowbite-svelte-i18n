@@ -5,5 +5,6 @@
   "cta-2": "Installando il pacchetto tramite NPM sarai in grado di creare rapidamente applicazioni Web dall'aspetto moderno sfruttando Svelte, Tailwind CSS e Flowbite utilizzando componenti dell'interfaccia utente già pronti come barre di navigazione a discesa, modali e altro.",
   "get-started": "Iniziare",
   "component-desc": "Esplora l'intera raccolta di <span class='font-medium text-gray-900 dark:text-white'>su {components.length} componenti dell'interfaccia utente open source</span> ed elementi interattivi creati con Svelte e Flowbite",
-  "view-all-components": "Visualizza tutti i componenti"
+  "view-all-components": "Visualizza tutti i componenti",
+  "svelte-ui-components": "Svelte UI components"
 }
