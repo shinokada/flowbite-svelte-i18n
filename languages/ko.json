@@ -1,4 +1,5 @@
 {
   "home-hero": "다음을 사용하여 웹 개발 속도를 높이십시오.",
-  "home-hero-desc": "Flowbite Svelte는 Svelte용 공식 Flowbite 구성 요소 라이브러리입니다. 모든 상호 작용은 Svelte에서 처리합니다."
+  "home-hero-desc": "Flowbite Svelte는 Svelte용 공식 Flowbite 구성 요소 라이브러리입니다. 모든 상호 작용은 Svelte에서 처리합니다.",
+  "cta-1": "Flowbite 및 Tailwind CSS를 기반으로 Svelte를 사용하여 구축된 무료 오픈 소스 UI 구성 요소 라이브러리입니다."
 }
