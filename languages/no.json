@@ -8,5 +8,6 @@
   "view-all-components": "Se alle komponenter",
   "svelte-ui-components": "Svelte UI-komponenter",
   "huge-collection": "Stor samling av UI-komponenter",
-  "open-source": "Åpen kildekode under MIT-lisensen"
+  "open-source": "Åpen kildekode under MIT-lisensen",
+  "interactivity": "Interaktivitet håndtert av Svelte"
 }
