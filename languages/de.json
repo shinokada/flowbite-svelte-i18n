@@ -9,5 +9,6 @@
   "svelte-ui-components": "Svelte UI-Komponenten",
   "huge-collection": "Riesige Sammlung von UI-Komponenten",
   "open-source": "Open Source unter der MIT-Lizenz",
-  "interactivity": "Interaktivität wird von Svelte übernommen"
+  "interactivity": "Interaktivität wird von Svelte übernommen",
+  "utility": "Utility-Klassen basierend auf Tailwind CSS"
 }
