@@ -6,5 +6,6 @@
   "get-started": "Kom i gang",
   "component-desc": "Utforsk hele samlingen av <span class='font-medium text-gray-900 dark:text-white'>over {components.length} åpen kildekode</span> UI-komponenter og interaktive elementer bygget med Svelte og Flowbite",
   "view-all-components": "Se alle komponenter",
-  "svelte-ui-components": "Svelte UI-komponenter"
+  "svelte-ui-components": "Svelte UI-komponenter",
+  "huge-collection": "Stor samling av UI-komponenter"
 }
