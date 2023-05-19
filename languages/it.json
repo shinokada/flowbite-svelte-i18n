@@ -14,5 +14,6 @@
   "ecosystem": "Basato sull'ecosistema e sul design Flowbite",
   "start-building": "Inizia a costruire",
   "view-on-github": "Visualizza su GitHub",
-  "dark-mode-1": "Flowbite Svelte supporta la <A href='/docs/components/darkmode'>modalità oscura</A> e può essere facilmente integrato nel tuo progetto seguendo la documentazione ufficiale basata su Svelte."
+  "dark-mode-1": "Flowbite Svelte supporta la <A href='/docs/components/darkmode'>modalità oscura</A> e può essere facilmente integrato nel tuo progetto seguendo la documentazione ufficiale basata su Svelte.",
+  "dark-mode-2": "L'abilitazione della modalità oscura consentirà agli utenti di selezionare il metodo preferito (chiaro o scuro) o di passare automaticamente in base alle impostazioni del sistema operativo."
 }
