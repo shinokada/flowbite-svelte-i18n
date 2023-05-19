@@ -1,3 +1,4 @@
 {
-  "home-hero": "다음을 사용하여 웹 개발 속도를 높이십시오."
+  "home-hero": "다음을 사용하여 웹 개발 속도를 높이십시오.",
+  "home-hero-desc": "Flowbite Svelte는 Svelte용 공식 Flowbite 구성 요소 라이브러리입니다. 모든 상호 작용은 Svelte에서 처리합니다."
 }
