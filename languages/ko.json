@@ -6,5 +6,6 @@
   "get-started": "시작하다",
   "component-desc": "Svelte 및 Flowbite로 구축된 <span class='font-medium text-gray-900 dark:text-white'>{components.length} 오픈 소스</span> UI 구성요소 및 대화형 요소의 전체 컬렉션을 살펴보세요.",
   "view-all-components": "모든 구성 요소 보기",
-  "svelte-ui-components": "Svelte UI 구성 요소"
+  "svelte-ui-components": "Svelte UI 구성 요소",
+  "huge-collection": "방대한 UI 구성 요소 컬렉션"
 }
