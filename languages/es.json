@@ -6,5 +6,6 @@
   "get-started": "Empezar",
   "component-desc": "Explora toda la colección de <span class='font-medium text-gray-900 dark:text-white'>sobre {components.length} de código abierto</span> componentes de interfaz de usuario y elementos interactivos creados con Svelte y Flowbite",
   "view-all-components": "Ver todos los componentes",
-  "svelte-ui-components": "Svelte UI components"
+  "svelte-ui-components": "Svelte UI components",
+  "huge-collection": "Enorme colección de componentes de interfaz de usuario"
 }
