@@ -13,5 +13,6 @@
   "utility": "Verktøyklasser basert på Tailwind CSS",
   "ecosystem": "Basert på Flowbite-økosystemet og design",
   "start-building": "Begynn å bygge",
-  "view-on-github": "Se på GitHub"
+  "view-on-github": "Se på GitHub",
+  "dark-mode-1": "Flowbite Svelte støtter <A href='/docs/components/darkmode'>mørk modus</A> og kan enkelt integreres i prosjektet ditt ved å følge den offisielle dokumentasjonen basert på Svelte."
 }
