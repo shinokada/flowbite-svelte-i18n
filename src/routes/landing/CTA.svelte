@@ -14,11 +14,11 @@
   import { i } from '@inlang/sdk-js'
 
   const features = [
-    'Huge collection of UI components',
-    'Open-source under the MIT License',
-    'Interactivity handled by Svelte',
-    'Utility classes based on Tailwind CSS',
-    'Based on the Flowbite ecosystem and design'
+    `i('huge-collection')`,
+    `i('open-source')`,
+    `i('interactivity')`,
+    `i('utility')`,
+    `i('ecosystem')`
   ];
 </script>
 
