@@ -2,5 +2,6 @@
   "home-hero": "다음을 사용하여 웹 개발 속도를 높이십시오.",
   "home-hero-desc": "Flowbite Svelte는 Svelte용 공식 Flowbite 구성 요소 라이브러리입니다. 모든 상호 작용은 Svelte에서 처리합니다.",
   "cta-1": "Flowbite 및 Tailwind CSS를 기반으로 Svelte를 사용하여 구축된 무료 오픈 소스 UI 구성 요소 라이브러리입니다.",
-  "cta-2": "NPM을 통해 패키지를 설치하면 드롭다운 탐색 모음, 모달 등과 같은 미리 만들어진 UI 구성 요소를 사용하여 Svelte, Tailwind CSS 및 Flowbite를 활용하여 최신 모양의 웹 응용 프로그램을 빠르게 구축할 수 있습니다."
+  "cta-2": "NPM을 통해 패키지를 설치하면 드롭다운 탐색 모음, 모달 등과 같은 미리 만들어진 UI 구성 요소를 사용하여 Svelte, Tailwind CSS 및 Flowbite를 활용하여 최신 모양의 웹 응용 프로그램을 빠르게 구축할 수 있습니다.",
+  "get-started": "시작하다"
 }
