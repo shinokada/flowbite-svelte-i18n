@@ -14,5 +14,6 @@
   "utility": "Tailwind CSS に基づくユーティリティ クラス",
   "ecosystem": "Flowbite のエコシステムと設計に基づく",
   "start-building": "構築を開始する",
-  "view-on-github": "GitHub で見る"
+  "view-on-github": "GitHub で見る",
+  "dark-mode-1": "Flowbite Svelte は <A href='/docs/components/darkmode'>ダーク モード</A> をサポートしており、Svelte に基づく公式ドキュメントに従うことでプロジェクトに簡単に統合できます。"
 }
