@@ -1,3 +1,4 @@
 {
-  "home-hero": "Acelera tu desarrollo web con"
+  "home-hero": "Acelera tu desarrollo web con",
+  "home-hero-desc": "Flowbite Svelte es una biblioteca oficial de componentes de Flowbite para Svelte. Todas las interactividades están a cargo de Svelte."
 }
