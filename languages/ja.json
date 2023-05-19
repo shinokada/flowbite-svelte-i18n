@@ -12,5 +12,6 @@
   "open-source": "MITライセンスに基づくオープンソース",
   "interactivity": "Svelte によって処理されるインタラクティブ性",
   "utility": "Tailwind CSS に基づくユーティリティ クラス",
-  "ecosystem": "Flowbite のエコシステムと設計に基づく"
+  "ecosystem": "Flowbite のエコシステムと設計に基づく",
+  "start-building": "構築を開始する"
 }
