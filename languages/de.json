@@ -2,5 +2,6 @@
   "home-hero": "Beschleunigen Sie Ihre Webentwicklung mit",
   "home-hero-desc": "Flowbite Svelte ist eine offizielle Flowbite-Komponentenbibliothek für Svelte. Alle Interaktivitäten werden von Svelte abgewickelt.",
   "cta-1": "ist eine kostenlose Open-Source-UI-Komponentenbibliothek, die mit Svelte basierend auf Flowbite und Tailwind CSS erstellt wurde.",
-  "cta-2": "Durch die Installation des Pakets über NPM können Sie schnell modern aussehende Webanwendungen erstellen, indem Sie Svelte, Tailwind CSS und Flowbite nutzen und vorgefertigte UI-Komponenten wie Dropdown-Navigationsleisten, Modalitäten und mehr nutzen."
+  "cta-2": "Durch die Installation des Pakets über NPM können Sie schnell modern aussehende Webanwendungen erstellen, indem Sie Svelte, Tailwind CSS und Flowbite nutzen und vorgefertigte UI-Komponenten wie Dropdown-Navigationsleisten, Modalitäten und mehr nutzen.",
+  "get-started": "Loslegen"
 }
