@@ -7,5 +7,6 @@
   "get-started": "始めましょう",
   "component-desc": "Svelte と Flowbite で構築された <span class='font-medium text-gray-900 dark:text-white'>{components.length} 個以上</span>のオープンソース UI コンポーネントとインタラクティブ要素のコレクション全体を探索してください",
   "view-all-components": "すべてのコンポーネントを表示",
-  "svelte-ui-components": "Svelte  UI コンポーネント"
+  "svelte-ui-components": "Svelte  UI コンポーネント",
+  "huge-collection": "UI コンポーネントの膨大なコレクション"
 }
