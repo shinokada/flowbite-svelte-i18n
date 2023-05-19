@@ -10,5 +10,6 @@
   "huge-collection": "Stor samling av UI-komponenter",
   "open-source": "Åpen kildekode under MIT-lisensen",
   "interactivity": "Interaktivitet håndtert av Svelte",
-  "utility": "Verktøyklasser basert på Tailwind CSS"
+  "utility": "Verktøyklasser basert på Tailwind CSS",
+  "ecosystem": "Basert på Flowbite-økosystemet og design"
 }
