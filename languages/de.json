@@ -10,5 +10,6 @@
   "huge-collection": "Riesige Sammlung von UI-Komponenten",
   "open-source": "Open Source unter der MIT-Lizenz",
   "interactivity": "Interaktivität wird von Svelte übernommen",
-  "utility": "Utility-Klassen basierend auf Tailwind CSS"
+  "utility": "Utility-Klassen basierend auf Tailwind CSS",
+  "ecosystem": "Basierend auf dem Flowbite-Ökosystem und -Design"
 }
