@@ -10,9 +10,7 @@
   import Us from './flags/Us.svelte';
 
   async function handleLanguageChange(lang: string) {
-    console.log(`switching language to ${lang} ...`)
     await switchLanguage(lang)
-    console.log(`... language switched to ${lang}`)
   }
 
   let dropdownOpen = false;
@@ -55,8 +53,8 @@
   ]
 </script>
 
-<div class='p-2' id="countries">
-  Lang
+<div class='p-2 text-gray-900 dark:text-white font-medium' id="countries">
+  {language.toUpperCase()}
 </div>
 <Dropdown triggeredBy="#countries" bind:open={dropdownOpen}>
   {#each sfLanguages as { lang, value, icon }}
