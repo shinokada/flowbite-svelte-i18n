@@ -7,5 +7,6 @@
   "component-desc": "Esplora l'intera raccolta di <span class='font-medium text-gray-900 dark:text-white'>su {components.length} componenti dell'interfaccia utente open source</span> ed elementi interattivi creati con Svelte e Flowbite",
   "view-all-components": "Visualizza tutti i componenti",
   "svelte-ui-components": "Svelte UI components",
-  "huge-collection": "Enorme raccolta di componenti dell'interfaccia utente"
+  "huge-collection": "Enorme raccolta di componenti dell'interfaccia utente",
+  "open-source": "Open-source con licenza MIT"
 }
